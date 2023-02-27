@@ -1,12 +1,18 @@
-<div class="row">
-  <div class="shadow col-sm-4 p-3">
-    <div class="card">
-      <img src="assets/house.jpg" class="propImg" />
-      <div class="card-body p-2">
-        <h1>{{Property.Name}}</h1>
-        <h2>{{Property.Type}}</h2>
-        <h3>{{Property.Price}}</h3>
-      </div>
-    </div>
+<div class="card">
+  <div class="card-img-wrapper">
+    <img src="assets/house.jpg" class="card-img-top" />
+    <ul class="list-inline text-center member-icons animate">
+      <li class="list-inline-item">
+        <button class="btn btn-primary" routerLink="/property-detail/{{property.Id}}"><img src="./assets/edit.png" style="height: 20px"/></button>
+      </li>
+      <li class="list-inline-item">
+        <button class="btn btn-primary"><img src="./assets/telephone.png" style="height: 20px"/></button>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body p-2">
+    <h1>{{ property.Name }}</h1>
+    <h2>{{ property.Type }}</h2>
+    <h3>{{ property.Price }}</h3>
   </div>
 </div>

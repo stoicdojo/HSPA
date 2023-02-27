@@ -1,0 +1,43 @@
+[{
+  "Id": 1,
+  "Name": "Birla House",
+  "Type": "House",
+  "Price": 12000
+},
+{
+  "Id": 2,
+  "Name": "Birla 2 House",
+  "Type": "House",
+  "Price": 11000
+},
+{
+  "Id": 3,
+  "Name": "Birla 3 House",
+  "Type": "House",
+  "Price": 10000
+},
+{
+  "Id": 4,
+  "Name": "Birla 4 House",
+  "Type": "House",
+  "Price": 14000
+},
+{
+  "Id": 5,
+  "Name": "Birla 5 House",
+  "Type": "House",
+  "Price": 11000
+},
+{
+  "Id": 6,
+  "Name": "Birla 6 House",
+  "Type": "House",
+  "Price": 10006
+},
+{
+  "Id": 7,
+  "Name": "Birla 7 House",
+  "Type": "House",
+  "Price": 14007
+}
+]
